@@ -30,7 +30,7 @@ def metrics():
 @app.route("/")
 def hello():
     app.logger.info('Main request Succesfull')
-    return "Hello World! Version-3"
+    return "Hello World! Version 4"
 
 if __name__ == "__main__":
     logging.basicConfig(filename='app.log',level=logging.DEBUG)
